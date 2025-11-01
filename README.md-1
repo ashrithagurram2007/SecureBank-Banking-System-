@@ -1,0 +1,44 @@
+# 🏦 SecureBank - Console Based Banking System (Java OOP Case Study)
+
+## 📌 Overview
+**SecureBank** is a console-based **Bank Account Management System** developed using **Object-Oriented Programming (OOP) principles in Java**.  
+It allows users to create and manage **Savings** and **Checking** accounts while supporting core banking operations such as **deposit**, **withdraw**, and **balance inquiry**.
+
+This project demonstrates the use of **Classes, Objects, Inheritance, Method Overriding, Constructors, Access Modifiers, and Custom Exceptions**.
+
+---
+
+## 🎯 Problem Statement
+SecureBank is a small regional bank that wants to digitize its basic banking system.  
+The bank requires a system that can:
+
+- Create new customer accounts (Savings / Checking)
+- Store customer details (Account Number, Holder Name, Balance, Account Type)
+- Perform secure transactions:
+  - **Deposit** funds
+  - **Withdraw** funds with validation (no overdrafts allowed)
+- Display account balance and transaction status messages
+- Demonstrate **inheritance & polymorphism** through account types
+
+---
+
+## 🧠 OOP Concepts Implemented
+
+| Concept | Usage in Project |
+|--------|-----------------|
+| **Class & Object** | Represent Bank Accounts and operations |
+| **Constructors** | Initialize new account objects |
+| **Inheritance** | SavingsAccount and CheckingAccount extend Base Account class |
+| **Method Overriding** | Different withdrawal/interest logic for each account type |
+| **Encapsulation** | Private data members with controlled access |
+| **Polymorphism** | Same method name performing different behaviors |
+| **Exception Handling** | Handles insufficient balance errors |
+
+---
+
+## 🏗️ System Design (UML Diagram)
+
+```plaintext
+         Account
+        /       \
+SavingsAccount  CheckingAccount
